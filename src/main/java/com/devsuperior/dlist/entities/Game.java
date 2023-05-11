@@ -37,14 +37,14 @@ public class Game {
 
 	
 
-	public Game(Long id, String title, Integer year, String genre, String platform, Double score, String imgUrl,
+	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String longDescription) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.year = year;
 		this.genre = genre;
-		this.platforms = platform;
+		this.platforms = platforms;
 		this.score = score;
 		this.imgUrl = imgUrl;
 		this.shortDescription = shortDescription;
@@ -107,8 +107,8 @@ public class Game {
 
 
 
-	public void setPlatform(String platform) {
-		this.platforms = platform;
+	public void setPlatform(String platforms) {
+		this.platforms = platforms;
 	}
 
 
